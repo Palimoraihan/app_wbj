@@ -1,0 +1,37 @@
+name: warkopbangjago_aplikasi
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.16.2 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: ^4.6.1
+  firebase_core: ^1.17.1
+  firebase_auth: ^3.3.19
+  cloud_firestore: ^3.1.17
+  firebase_storage: ^10.2.17
+  image_picker: 0.8.5+3
+  
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^1.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  assets: 
+    - assets/image/Vector_login_wbj.png
+    - assets/image/logo_wbj.jpg
+  fonts: 
+    - family: Roboto
+      fonts: 
+        - asset: assets/font/Roboto/Roboto-Regular.ttf
+        - asset: assets/font/Roboto/Roboto-Medium.ttf
+        - asset: assets/font/Roboto/Roboto-Bold.ttf
+        - asset: assets/font/Roboto/Roboto-Black.ttf
+  uses-material-design: true
+
